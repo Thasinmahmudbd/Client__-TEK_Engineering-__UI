@@ -1,0 +1,255 @@
+/* for tablets width = 800px */
+
+@media only screen and (max-width: 800px) {
+
+    /* color schemes */
+    /* orange: #FF8100; */
+    /* yellow: #FFA700; */
+    /* light blue: #91BFFF; */
+    /* blue: #5292FF; */
+    /* deep blue: #4C6AFF; */
+
+    /* basic info */
+
+    .basic_info {
+        display: none;
+    }
+
+    /* header + navbar */
+
+    .header {
+        grid-template-columns: 1fr 2.5rem;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        width: calc(100vw - 0rem);
+    }
+
+    .company_logo img {
+        width:50px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* on scroll */
+
+    .header_on_scroll {
+        grid-template-columns: 1fr 2.5rem;
+        padding: .5rem;
+        width: calc(100vw - 0rem);
+    }
+    
+    .overlay {
+        display:grid;
+    }
+    
+    .hambergar_icon {
+        display:block;
+    }
+
+    /* slider */
+
+    .slider {
+        height: 40vh;
+        margin-top: 3rem;
+    }
+
+    .slider_content {
+        text-align: left;
+        padding-left: 10vw;
+        padding-top: 100px;
+    }
+
+    .content_title {
+        font-size: 1.2rem;
+    }
+
+    .content_des {
+        width:65vw;
+        font-size: .8rem;
+    }
+
+    .nav_slider {
+        font-size: 1.5rem;
+    }
+
+    .nav_slider:hover {
+        font-size: 1.5rem;
+    }
+
+    .owl-nav {
+        position: relative;
+        bottom:-90px;
+        right:50px;
+    }
+    
+    /* The animation code for slider content*/
+    @keyframes pop_from_left {
+        from {
+            padding-left: 200vw;
+        }
+
+        to {
+            padding-left: 10vw;
+        }
+    }
+
+    /* about our services */
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* gallery */
+
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        width:80vw;
+        margin:auto;
+    }
+
+    .other_img {
+        width: 80vw;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .gallery_img img {
+        width: calc(100vw - 5rem);
+        height: 70vw;
+        border-radius:0px;
+    }
+
+    .gallery_img {
+        border-radius: 0px;
+    }
+
+    .big_img {
+        width: 80vw;
+        height: 70vw;
+    }
+
+    .big_img img {
+        width: 90vw;
+        margin: auto;
+        height: 70vw;
+    }
+
+    .last_img a:hover {
+        padding-top: 10rem;
+    }
+
+    /* services offered */
+
+    .section_headline {   
+        font-size: 1.5rem;
+    }
+
+    /* go up btn */
+
+    .go_up {
+        display:none;
+    }
+
+    /* map */
+
+    .map_container {
+        grid-template-columns: 1fr;
+    }
+
+    .section_headline_2 {
+        font-size: 1.5rem;
+    }
+
+    /* footer */
+
+    .footer_container {
+        width: 100vw;
+        margin:-.5rem;
+        padding-right: 1rem;
+    }
+
+    .footer-ditributed {
+        width: 80%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+
+    .nav_link_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav_link_footer a {
+        font-size: .8rem;
+    }
+
+    .footer_img {
+        width:50px;
+    }
+
+    .footer-center {
+        padding:1rem 0rem;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
+
+    .center_item_logo {   
+        font-size: 1rem;
+    }
+
+    .footer-center_item p {
+        font-size: .8rem;
+    }
+
+    .footer-center_item a {
+        font-size: .8rem;
+    }
+
+    .footer-commpany-about {
+        font-size: .8rem;
+    }
+
+    .about_title {
+        grid-template-columns: 2fr 2fr;
+        font-size: 1.1rem;
+        border-bottom: 2px solid #fff;
+    }
+
+    .nav_link_footer a:hover::after {
+        width: 6rem;
+        background-color: #fff;
+        transition: 300ms ease-in;
+    }
+
+}
+
+/* for mobile width = 500px */
+
+@media only screen and (max-width: 500px) {
+
+    
+    /* slider */
+
+    .slider {
+        height: 100vh;
+    }
+    
+    .owl-nav {
+        position: relative;
+        top:150px;
+        right:50px;
+    }
+    
+    .slider_content {
+        padding-top:50%;
+    }
+
+    /* about our services */
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+}
