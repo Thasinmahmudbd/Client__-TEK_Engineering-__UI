@@ -1,0 +1,33 @@
+/* color schemes */
+/* orange: #FF8100; */
+/* yellow: #FFA700; */
+/* light blue: #91BFFF; */
+/* blue: #5292FF; */
+/* deep blue: #4C6AFF; */
+
+/* content portion */
+
+.content_template{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:1rem;
+    color:#3B3838;
+}
+
+.title{
+    text-align: center;
+}
+
+.content{
+    text-align: justify;
+    padding:1rem;
+    background-color: #eeefff;
+    border-left:2px solid #FF8100;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.content_ul{
+    padding-left:2rem;
+    padding-top:1rem;
+}
