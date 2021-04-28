@@ -1,0 +1,28 @@
+/* for tablets width = 800px */
+
+@media only screen and (max-width: 800px) {
+
+    /* color schemes */
+    /* orange: #FF8100; */
+    /* yellow: #FFA700; */
+    /* light blue: #91BFFF; */
+    /* blue: #5292FF; */
+    /* deep blue: #4C6AFF; */
+
+    /* small gap */
+
+    .small_gap{
+        margin:0rem;
+    }
+    
+    /* post section (post template) */
+    
+    .main_section{
+        margin-top:0rem;
+    }
+    
+    .content_portion{
+        margin-top:5rem;
+    }
+
+}

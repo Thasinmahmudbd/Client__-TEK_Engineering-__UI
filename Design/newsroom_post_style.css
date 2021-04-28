@@ -1,0 +1,35 @@
+/* color schemes */
+/* orange: #FF8100; */
+/* yellow: #FFA700; */
+/* light blue: #91BFFF; */
+/* blue: #5292FF; */
+/* deep blue: #4C6AFF; */
+
+
+/* small gap */
+
+.small_gap{
+    margin:5rem;
+}
+
+
+/* links */
+
+.links{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.links a{
+    padding:.5rem .6rem;
+    color: #FF8100;
+    transition: 300ms ease-in;
+}
+
+.links a:hover{
+    background-color: #FF8100;
+    transition: 300ms ease-in;
+    color:#fff;
+    border-radius: 50px;
+}

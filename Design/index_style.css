@@ -35,6 +35,7 @@ body {
     font-size: .8rem;
     color: #fff;
     font-weight: bold;
+    transition: 300ms ease-in;
 }
 
 .basic_icon {
@@ -71,7 +72,7 @@ body {
     z-index: 10;
     background-color: #4C6AFF;
     box-shadow: 0px 5px 10px 0px #3b3838a0;
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in;
 }
 
 .company_logo img {
@@ -86,7 +87,7 @@ body {
     text-align: center;
     grid-gap: .5rem;
     align-content: center;
-    justify-self: center;
+    justify-self: end;
 }
 
 .navbar a {
@@ -369,10 +370,9 @@ body {
     z-index: 10;
     background-color: #4C6AFF;
     box-shadow: 0px 5px 10px 0px #3b3838a0;
-    position: fixed;
     z-index: 10;
     top: 0;
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in;
 }
 
 
